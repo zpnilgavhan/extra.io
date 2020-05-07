@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Gotu&display=swap" rel="stylesheet">
+    </head>
+
+
+<body>
+    <div class="container">
+        <div id="box2" class="box"><a href="https://zpnilgavhan.github.io/contact.io/">Contact Us</a>
+        </div>
+        <div id="box3" class="box"><a href="http://bit.ly/2YxWsLv" target="blank">Apply Online</a>
+        </div>
+        <div id="box4" class="box"><a href="/Aboutus.html">About Us</a>
+        </div>
+        <div id="box4" class="box">
+            <a href="https://zpnilgavhan.github.io/homeM/">मराठीत बघा
+            </a>
+        </div>
+    </div>
+    <div class="box">
+        <div id="wrapper">
+            <div class="biodata">
+                <h1>निकाल</h1>
+                <h2>इयत्ता - पहिली</h2>
+                <h2>आदिती सचिन मोरे</h2>
+                <h2>जि प शाळा निळगव्हाण (Udise No. 27020206701)</h2>
+            </div>
+            <table id="keywords" cellspacing="0" cellpadding="0">
+              <thead>
+                <tr>
+                  <th><span>विषय</span></th>
+                  <th><span>प्रथम सत्र</span></th>
+                  <th><span>व्दितीय सत्र</span></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>मराठी</td>
+                  <td>अ-1</td>
+                  <td>अ-१</td>
+                </tr>
+                <tr>
+                  <td>इंग्रजी</td>
+                  <td>अ-2</td>
+                  <td>अ-२</td>
+                </tr>
+                <tr>
+                  <td>गणित</td>
+                  <td>अ-1</td>
+                  <td>अ-1</td>
+                </tr>
+                <tr>
+                  <td>कला</td>
+                  <td>अ-2</td>
+                  <td>अ-२</td>
+                </tr>
+                <tr>
+                  <td>कार्यानुभव</td>
+                  <td>अ-2</td>
+                  <td>अ-1</td>
+                </tr>
+                <tr>
+                  <td>शारीरिक शिक्षण</td>
+                  <td>अ-2</td>
+                  <td>अ-1</td>
+                </tr>
+              </tbody>
+            </table>
+           </div>
+    </div>
+</body>
+
+</html>
+<script>
+    $(function(){
+    $('#keywords').tablesorter(); 
+    });
+</script>
+
+<style> 
+            html{
+                font-size: small;
+                font-family: 'Gotu', sans-serif,'Amita', cursive;
+            }
+            body {
+                /* Set a background color that will be displayed
+                    while the background image is loading */
+                background-image: url("https://images.unsplash.com/photo-1587826080692-f439cd0b70da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+                background-color: #464646;
+                
+            }
+            .container{
+                background-color: black;
+                border: solid 2px purple;
+                display: flex;
+                flex-wrap: wrap;
+                width: 95%;
+                height: auto;
+                margin: auto;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                border-radius: 25px;
+                justify-content: center;
+                justify-content: space-around;
+                align-items: center;
+                
+            }
+            .box{
+                 /* border: solid 2px whitesmoke;  */
+                margin: auto;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                color: whitesmoke ;
+            }
+            a:hover{
+                color: rgb(62, 236, 9);
+                zoom: 110%;
+            }
+            span:hover{
+                color: rgb(62, 236, 9);
+            }
+            .ima1{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .recent{
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                border: solid 2px violet;
+                width: max-content;
+                position: relative;
+                top: 20vh;
+                background-color: rgb(12, 78, 56);
+            }
+           .task{
+               display: inline-flexbox;
+               text-align: center;
+               padding: 2vh;
+               
+           }
+           .task:hover{
+                color: rgb(62, 236, 9);
+           }
+           .xen{
+                /* float: right; */
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                zoom: 1;
+                border: solid 2px whitesmoke;
+                border-radius: 10%;
+                background-color: blueviolet;
+                padding: 1%;
+            }
+        tr{
+            border: solid 2px royalblue;
+        }
+        #wrapper{
+        display: block;
+        width: 65vh;
+        background: #fff;
+        margin: 0 auto;
+        border: solid 1vh  royalblue;
+        border-radius: 25px;
+        /* padding: 10px 17px;
+        -webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35); */
+        }
+
+        h1{
+            text-align: center;
+            display: inline-block;
+        }
+
+        h2{
+            display: inline-block;
+            text-align: center;
+        }
+
+        .biodata{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #keywords {
+        margin: 0 auto;
+        font-size: 1.2em;
+        margin-bottom: 15px;
+        border: solid 0.75vh slateblue;
+        border-radius: 25px;
+        padding: 2vh;
+        }
+
+
+        #keywords thead {
+        cursor: pointer;
+        background: #c9dff0;
+        padding: 2vh;
+        }
+        #keywords thead tr th { 
+        font-weight: bold;
+        padding: 2vh 3vh;
+        padding-left: 42px;
+        border-radius: 25px;
+        }
+        #keywords thead tr th span { 
+        padding-right: 20px;
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        }
+
+        #keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
+        background: #acc8dd;
+        }
+
+        #keywords thead tr th.headerSortUp span {
+        background-image: url('https://i.imgur.com/SP99ZPJ.png');
+        }
+        #keywords thead tr th.headerSortDown span {
+        background-image: url('https://i.imgur.com/RkA9MBo.png');
+        }
+
+
+        #keywords tbody tr { 
+        color: #555;
+        }
+        #keywords tbody tr td {
+        text-align: center;
+        padding: 15px 10px;
+        }
+        #keywords tbody tr td.lalign {
+        text-align: left;
+        }
+</style>
